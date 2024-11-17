@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Red Lobster</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Add some basic styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .logo {
+            width: 120px; /* Adjust logo size */
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #ff6600;
+        }
+
+        main {
+            padding: 40px;
+            background-color: white;
+            margin: 20px auto;
+            max-width: 900px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-details {
+            text-align: center;
+        }
+
+        .contact-details h2 {
+            color: #003366;
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        .contact-details p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        .contact-form {
+            text-align: left;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact-form label {
+            font-size: 1rem;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        .contact-form textarea {
+            resize: vertical;
+        }
+
+        .contact-form button {
+            background-color: #003366;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #ff6600;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #003366;
+            color: white;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        .social-icons {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .social-icons a {
+            margin: 0 15px;
+            font-size: 1.5rem;
+            color: #003366;
+            text-decoration: none;
+        }
+
+        .social-icons a:hover {
+            color: #ff6600;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Red Lobster Logo" class="logo"> <!-- Red Lobster logo -->
+        <nav>
+            <ul class="horizontal-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="details1.html">Details1</a></li>
+                <li><a href="details2.html">Details2</a></li>
+                <li><a href="contact_us.html">Contact Us</a></li>
+                <li><a href="location.html">Location</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-details">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Whether you have questions, feedback, or want to make a reservation, feel free to reach out to us.</p>
+            <p>Here’s how you can get in touch:</p>
+        </section>
+
+        <section class="contact-form">
+            <h3>Send us a Message</h3>
+            <form action="#" method="POST">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <!-- Contact Manager Info -->
+        <section class="contact-manager">
+            <h3>Contact Manager</h3>
+            <p><strong>Manager Name:</strong> John Doe</p>
+            <p><strong>Email:</strong> <a href="mailto:john@redlobster.com">john@redlobster.com</a></p>
+            <p><strong>Phone:</strong> (416) 620-9990</p>
+        </section>
+
+        <!-- Social Media Icons -->
+        <section class="social-icons">
+            <h3>Follow Us</h3>
+            <a href="https://www.facebook.com/RedLobster" target="_blank" title="Red Lobster on Facebook">Facebook</a>
+            <a href="https://twitter.com/RedLobster" target="_blank" title="Red Lobster on Twitter">Twitter</a>
+            <a href="https://www.instagram.com/redlobster" target="_blank" title="Red Lobster on Instagram">Instagram</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Red Lobster | Kasachin Geberetinsia | Student Number: 30138496 | Individual Project Assignment</p>
+        <p>Image Credits: Images sourced from Pixabay (https://pixabay.com).</p>
+    </footer>
+</body>
+</html>
